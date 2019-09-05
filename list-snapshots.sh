@@ -2,7 +2,9 @@
 
 echo
 echo "This script lists snapshots for the EBS Volume with the 'Name' tag that you enter below (medusa-prod, databank-demo,etc.)."
+echo "The list of snapshots is sorted by snap shot start date in ascending order."
 echo "NOTE: Volume 'Name' tags are the same as the EC2 'Name' tag."
+echo "NOTE: AWS CLI is a prerequisite"
 echo
 echo "Enter Volume 'Name' tag value: \c"
 
